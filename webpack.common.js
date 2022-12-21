@@ -33,6 +33,10 @@ module.exports = {
         },
       ],
     }),
-    new DotenvWebpackPlugin(),
+    new DotenvWebpackPlugin({
+      path: path.resolve(__dirname, '.env'),
+      systemvars: true,
+      safe: true,
+    }),
   ],
 };
