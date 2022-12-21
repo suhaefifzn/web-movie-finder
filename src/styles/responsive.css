@@ -1,0 +1,200 @@
+@media (min-width: 375px) {
+  .card {
+    height: 200px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 400px) {
+  .card {
+    height: 215px;
+    width: 165px;
+  }
+
+  .detail-description {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .detail-img img {
+    height: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .second-hero__img {
+    display: none;
+  }
+
+  .second-hero {
+    justify-content: center;
+  }
+
+  .second-hero__text .hero__title,
+  .second-hero__text p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 599px) {
+  .main-hero {
+    min-height: 350px;
+  }
+}
+
+@media (min-width: 500px) {
+  .main-hero {
+    min-height: 400px;
+  }
+
+  .second-hero {
+    top: 100px;
+  }
+
+  .second-hero__img {
+    flex-basis: 50%;
+  }
+
+  .card-movies {
+    justify-content: space-around;
+  }
+
+  .card-text {
+    max-height: 55%;
+  }
+
+  .detail-description {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .detail-img img {
+    height: 475px;
+  }
+}
+
+@media (min-width: 600px) {
+  .btn-hamburger {
+    display: none;
+  }
+
+  .navbar-menu {
+    left: auto;
+    top: auto;
+    flex-direction: row;
+    position: relative;
+    height: auto;
+    width: auto;
+    z-index: auto;
+  }
+
+  .navbar-item-link {
+    margin: auto;
+  }
+
+  .second-hero {
+    top: 100px;
+  }
+
+  .card-text {
+    max-height: 40%;
+  }
+
+  .detail-description {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media (min-width: 650px) {
+  .card {
+    height: 240px;
+    width: 190px;
+  }
+
+  .detail-description {
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+}
+
+@media (min-width: 700px) {
+  .detail-description {
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero__title {
+    font-size: 40px;
+  }
+
+  .second-hero__text p {
+    font-size: 18px;
+  }
+
+  .second-hero__img {
+    flex-basis: 45%;
+  }
+
+  .second-hero__text {
+    flex-basis: 50%;
+  }
+
+  .card {
+    height: 250px;
+    width: 200px;
+  }
+
+  .card-text {
+    max-height: 40%;
+  }
+
+  .detail-description {
+    margin-left: 36px;
+    margin-right: 36px;
+    padding: 24px;
+  }
+
+  .detail-img img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero__title {
+    font-size: 45px;
+  }
+
+  .second-hero__text p {
+    font-size: 20px;
+  }
+
+  .card-text {
+    max-height: 40%;
+  }
+
+  .detail-description {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 28px;
+  }
+
+  .detail-img img {
+    height: 550px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .detail-description {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 32px;
+  }
+
+  .detail-img img {
+    height: 600px;
+  }
+}
